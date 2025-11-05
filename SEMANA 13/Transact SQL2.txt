@@ -1,0 +1,9 @@
+Funciones: bloques de código que devuelven un valor, usados para realizar cálculos o procesos reutilizables.
+
+Procedimientos almacenados: conjuntos de instrucciones SQL que pueden ejecutarse varias veces para automatizar tareas (por ejemplo, insertar registros).
+
+Variables: almacenan datos temporales dentro de un script o bloque de código.
+
+Condicional IF: permite ejecutar distintas acciones dependiendo del cumplimiento de una condición lógica.
+
+Cursores: recorren los resultados de una consulta fila por fila, permitiendo realizar operaciones específicas en cada una.
