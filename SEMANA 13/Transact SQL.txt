@@ -1,0 +1,5 @@
+Transact SQL es una extensión del lenguaje SQL desarrollada por Microsoft para su sistema gestor SQL Server.
+A diferencia del SQL estándar, que se centra solo en consultar y manipular datos, T-SQL incorpora capacidades de programación, permitiendo crear scripts más avanzados y automatizados dentro del propio servidor de base de datos.
+
+Con T-SQL se pueden usar variables, condicionales, funciones, procedimientos almacenados y cursores, lo que permite controlar el flujo de ejecución, realizar cálculos, validar información y repetir acciones de forma dinámica.
+En resumen, T-SQL combina las ventajas de SQL con las de un lenguaje de programación estructurado, logrando soluciones más eficientes y organizadas para la gestión de datos.
