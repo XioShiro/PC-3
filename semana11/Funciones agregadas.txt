@@ -1,6 +1,6 @@
 SUM: suma los valores de una columna para un conjunto de filas.
 
-COUNT: cuenta elementos; puede contar todas las filas de un conjunto o sólo los valores no nulos de una columna. También existe la variante que cuenta valores distintos.
+COUNT: cuenta elementos como contar todas las filas de un conjunto o sólo los valores no nulos de una columna.
 
 AVG: calcula el promedio aritmético de los valores de una columna.
 
@@ -21,5 +21,6 @@ Luego se aplica una función agregada por cada grupo para obtener resúmenes por
 
 
 Filtrar antes de agrupar elimina filas individuales que no deben participar en los grupos.
+
 
 Filtrar después de agrupar evalúa condiciones sobre los resultados agregados (por ejemplo: mantener solo los grupos cuyo total supera cierto umbral).
