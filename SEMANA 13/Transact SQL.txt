@@ -3,4 +3,5 @@ A diferencia del SQL estándar, que se centra solo en consultar y manipular dato
 
 Con T-SQL se pueden usar variables, condicionales, funciones, procedimientos almacenados y cursores, lo que permite controlar el flujo de ejecución, realizar cálculos, validar información y repetir acciones de forma dinámica.
 
-En resumen, T-SQL combina las ventajas de SQL con las de un lenguaje de programación estructurado, logrando soluciones más eficientes y organizadas para la gestión de datos
+En resumen, T-SQL combina las ventajas de SQL con las de un lenguaje de programación estructurado, logrando soluciones más eficientes y organizadas para la gestión de
+
