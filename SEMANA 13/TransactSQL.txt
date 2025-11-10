@@ -1,0 +1,12 @@
+Transacción
+Es una secuencia de operaciones que se ejecutan como una unidad indivisible que se usa cuando varias acciones deben ocurrir juntas o ninguna debe aplicarse. Se usa en transferencias bancarias, registro de pedidos, operaciones que actualizan múltiples tablas relacionadas.
+
+COMMIT
+Es una confirma de la transacción, por ejemplo se usa cuando todas las operaciones de la transacción finalizaron correctamente y se desea guardar los cambios. Los usos comunes son al finalizar un proceso exitoso, por ejemplo, completar el pago y el registro de una orden.
+
+ROLLBACK
+Deshace la transacción y revierte todos los cambios realizados desde que comenzó como cuando ocurre un error o se decide que los cambios no deben aplicarse. 
+Evita que la base de datos quede en un estado parcial o inconsistente.
+
+SAVEPOINT 
+Es un marcador dentro de una transacción que permite volver a ese estado intermedio sin deshacer toda la transacción. Se usa en transacciones largas o complejas donde se quiere poder deshacer solo una parte sin perder lo realizado anteriormente.
