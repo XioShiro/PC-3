@@ -1,0 +1,25 @@
+Transacción: secuencia de operaciones que se ejecutan como una unidad indivisible.
+
+Inicio de la transacción: marca el comienzo del bloque de operaciones que deben tratarse como una sola unidad.
+
+Confirmación (COMMIT): hace permanentes todos los cambios realizados dentro de la transacción.
+
+Reversión (ROLLBACK): deshace todos los cambios realizados desde el inicio de la transacción si ocurre un error o se decide no aplicar los cambios.
+
+Savepoint (punto de guardado): permite crear puntos intermedios dentro de la transacción para revertir parcialmente hasta ese estado sin cancelar toda la transacción.
+
+Por qué es importante
+
+Mantiene la consistencia y la integridad de la base de datos.
+
+Evita estados parciales o corruptos cuando una operación multi-paso falla.
+
+Facilita el control de errores y la recuperación ante fallos.
+
+Buenas prácticas
+
+Usar transacciones para operaciones que impliquen múltiples cambios relacionados.
+
+Manejar errores y definir claramente cuándo confirmar o revertir.
+
+Emplear savepoints si necesitas flexibilidad para deshacer solo una parte de la transacción.
